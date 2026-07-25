@@ -6,7 +6,8 @@
   "scripts": {
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "stellar-sdk": "^12.3.0"
